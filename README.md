@@ -13,11 +13,11 @@
 
 ### Captura de tela
 
-![Screenshot](./path/to/screenshot.png)
+![Screenshot](./src/assets/images/Captura%20de%20Tela.png)
 
 ### Links
 
-- URL do site: [Link do projeto]()
+- URL do site: [Link do projeto](https://newsletterxpress.netlify.app/)
 
 ## Meu processo
 
