@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/style/style.css">
+  <link rel="stylesheet" href="./src/style/reset.css">
+  <link href="https: //fonts.googleapis.com/css2?family= Roboto :wght@400;500;700 & display=swap">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+<body>
+  <!-- Sign-up form start -->
+
+  <div class="container">
+    <div class="content">
+      <header>
+          <h1 class="tittle-stay">Stay updated!</h1>
+          <p class="item-description">Join 60,000+ product managers receiving monthly updates on:</p>
+      </header>
+
+  <main>
+    <section>
+      <p class="item-description"><img src="./src/assets/images/icon-list.svg" alt="erro-icon">Product discovery and building what matters</p>
+      <p class="item-description"><img src="./src/assets/images/icon-list.svg" alt="erro-icon">Measuring to ensure updates are a success</p>
+      <p class="item-description"><img src="./src/assets/images/icon-list.svg" alt="erro-icon">And much more!</p>
+    </section>  
+  </main>
+
+<footer>
+  <form id="meuformulario" onsubmit="validacaoEmail(event)">
+
+    <div class="valid"> 
+
+    <label for="emailaddress" class="email-text">Email address</label> 
+    <p class="invalid">Valid email requerid</p>
+    
+    </div>
+
+    <input class="input-email" id="emailaddress" type="text" name="email"  placeholder="email@company.com">
+    <button id="button-subscribe" class="Subscribe">subsribe to monthly newsletter</button>
+  
+  </form>
+
+</footer>
+    </div>
+
+      <img class="illustration" src="./src/assets/images/illustration-sign-up-desktop.svg" alt="error-illustration">
+
+    </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,193 @@
+body {
+    background-color: hsl(235, 18%, 26%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 930px;
+    height: 640px;
+    border-radius: 40px;
+
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px 0 60px;
+}
+
+h1.tittle-stay {
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 25px;
+
+}
+
+p.item-description {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35px;
+    color: hsl(234, 29%, 20%)
+}
+
+form#form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+div.valid {
+    display: flex;
+    justify-content: space-between;
+}
+
+label.email-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    display: flex;
+    align-items: center;
+}
+
+p.invalid {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(4, 100%, 67%);
+    display: none;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 370px;
+}
+
+input.input-email {
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid hsl(0, 3%, 88%);
+    padding: 0 0 0 24px;
+    cursor: pointer;
+}
+
+
+img.icon-success {
+    width: 15px;
+    margin-left: 10px;
+    display: none;
+}
+
+button.Subscribe {
+    width: 370px;
+    background-color: hsl(234, 29%, 20%);
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.Subscribe:hover {
+    background: linear-gradient(138deg, #ff8f70, #ff3d54);
+    transition: ease 0.4s;
+    box-shadow: 0px 15px 30px 0px hsla(4, 100%, 67%, 0.638);
+}
+
+img.illustration {
+    width: 392px;
+    height: 585px;
+    padding: 0 25px 0 0;
+}
+
+main.success-message {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 470px;
+    height: 460px;
+    padding: 50px 60px;
+    border-radius: 40px;
+}
+
+img.icon-list {
+    width: 65px;
+}
+
+h1.tittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 25px;
+}
+
+p.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: hsl(234, 29%, 20%)
+}
+
+#email-confirmed {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+button.button {
+    width: 470px;
+    background-color: hsl(234, 29%, 20%);
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    margin: 35px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button.button:hover {
+    background-color: hsl(4, 100%, 67%);
+    transition: ease 0.4s;
+    box-shadow: 0px 15px 30px 0px hsla(4, 100%, 67%, 0.638);
+}
+
+.emailInvalido {
+    border-color: hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 90%);
+    color: hsl(4, 100%, 67%);
+}
+
+.invalid {
+    display: flex;
+}
